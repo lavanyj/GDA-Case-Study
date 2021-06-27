@@ -1,0 +1,14 @@
+-- 06/23/2021
+1. Renamed the columns for Divvy_Trips_2019_Q2.csv,Divvy_Trips_2019_Q3.csv,Divvy_Trips_2019_Q4.csv
+2. Converted 'ride_id' and 'rideable_type' to character datatype.
+3. Stacked individual quarter's data frames into one big data frame (all_trips).
+
+-- 06/24/2021
+1. Removed lat, long, birthyear, and gender fields from all quaters stacked data frames
+2. Made changes in the "member_casual" column, replace "Subscriber" with "member" and "Customer" with "casual"
+3. added columns that list the date, month, day, and year of each ride.
+4. Added a column "ride_length" calculation to all_trips (in seconds)
+5. Converted "ride_length" from Factor to numeric data type
+ -- 06/25/2021
+1. removed the 'bad' data that contains a few hundred entries when bikes were taken out of docks and checked for quality by Divvy or ride_length was negative.
+2. Created new version of all quaters stacked dataframe (all_trips_v2). 

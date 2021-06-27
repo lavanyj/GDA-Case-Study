@@ -164,8 +164,8 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$d
 all_trips_v2 %>% 
   mutate(weekday = wday(started_at, label = TRUE)) %>%  #creates weekday field using wday()
   group_by(member_casual, weekday) %>%  #groups by usertype and weekday
-  summarise(number_of_rides = n()							#calculates the number of rides and average duration 
-  ,average_duration = mean(ride_length)) %>% 		# calculates the average duration
+  summarise(number_of_rides = n()	#calculates the number of rides and average duration 
+  ,average_duration = mean(ride_length)) %>% # calculates the average duration
 
 # STEP 10 : Visualisation
 # Visualize the number of rides by rider type

@@ -9,6 +9,7 @@
 3. added columns that list the date, month, day, and year of each ride.
 4. Added a column "ride_length" calculation to all_trips (in seconds)
 5. Converted "ride_length" from Factor to numeric data type
+
  -- 06/25/2021
-1. removed the 'bad' data that contains a few hundred entries when bikes were taken out of docks and checked for quality by Divvy or ride_length was negative.
-2. Created new version of all quaters stacked dataframe (all_trips_v2). 
+1. Removed the 'bad' data that contains a few hundred entries when bikes were taken out of docks and checked for quality by Divvy or ride_length was negative.
+2. Created new version of all quaters stacked dataframe (all_trips_v2) ofr further analysis.

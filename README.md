@@ -1,5 +1,5 @@
 # GDA-Case-Study
-This is a Google Data Analytics Capstone: Case study. In this case study, I performed perform data analysis for a fictional bike-share company in order to help them attract more riders. Along the way, I performed numerous real-world tasks of a junior data analyst by following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+This is a Google Data Analytics Capstone: Case study. In this case study, I performed data analysis for a fictional bike-share company in order to help them attract more riders. Along the way, I performed numerous real-world tasks of a junior data analyst by following the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 ## Introduction 
 The Cyclistic bike-share analysis case study! In this case study Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, I was given task to understand how casual riders and annual members use Cyclistic bikes differently.From these insights, the company will design a new marketing strategy to convert casual riders into annual members.
 ## About the company
